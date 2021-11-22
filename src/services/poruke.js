@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const osnovniUrl = 'http://localhost:3001/api/poruke'
+const osnovniUrl = 'https://poruke-backend-pb.herokuapp.com/'
  
 const dohvatiSve = () => {   
     return axios.get(osnovniUrl);
